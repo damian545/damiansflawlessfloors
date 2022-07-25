@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-family: "Impact", sans-serif;
   scroll-behavior: smooth;
 }
 section {
@@ -22,7 +23,8 @@ section {
 .banner h2 {
   font-size: 3em;
   color: lightyellow;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 2px 2px 3px brown;
+  letter-spacing: 3px;
   font-weight: 500;
   line-height: 1.5em;
 }
@@ -33,7 +35,8 @@ section {
 .banner h3 {
   font-size: 1.5em;
   color: lightyellow;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 2px 2px 3px brown;
+  letter-spacing: 3px;
   font-weight: 500;
 }
 .btn {
@@ -64,13 +67,13 @@ header {
 }
 header.sticky {
   padding: 20px 100px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px rgba(7, 54, 182, 0.1);
   background-color: aqua;
 }
 header .logo {
   color: rgb(0, 162, 255);
   text-shadow: 2px 2px 3px black;
-  font-size: 34px;
+  font-size: 44px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
@@ -92,7 +95,7 @@ header ul li a {
   display: inline-block;
   margin: 0 15px;
   color: rgb(0, 162, 255);
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 1px black;
   font-size: 27px;
   text-decoration: none;
 }
@@ -131,6 +134,12 @@ img {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+}
+.services h2 {
+  color: lightyellow;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 .services .heading {
   text-align: center;
