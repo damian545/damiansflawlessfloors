@@ -12,7 +12,7 @@ section {
 .banner {
   position: relative;
   min-height: 100vh;
-  background: url("./images/laminate-flooring.jpg");
+  background: url("./images/laminate-flooring-1.jpg");
   background-size: cover;
   background-position: right;
   display: flex;
@@ -54,6 +54,7 @@ header {
   top: 0px;
   left: 0px;
   width: 100%;
+  height: 25%;
   padding: 40px 100px;
   z-index: 1000;
   display: flex;
@@ -62,12 +63,12 @@ header {
   transition: 0.5%;
 }
 header.sticky {
-  background: #fff;
   padding: 20px 100px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: aqua;
 }
 header .logo {
-  color: orange;
+  color: rgb(0, 162, 255);
   text-shadow: 2px 2px 3px black;
   font-size: 34px;
   text-transform: uppercase;
@@ -90,9 +91,9 @@ header ul li a {
   position: relative;
   display: inline-block;
   margin: 0 15px;
-  color: orange;
+  color: rgb(0, 162, 255);
   text-shadow: 1px 1px 2px black;
-  font-size: 16px;
+  font-size: 27px;
   text-decoration: none;
 }
 header .sticky ul li a {
@@ -271,7 +272,7 @@ img {
 .contactInfoBx .box .icon {
   min-width: 40px;
   padding: 4px;
-  color: rgb(238, 234, 11);
+  color: rgb(228, 15, 79);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -282,17 +283,11 @@ img {
   margin-left: 20px;
   font-size: 16px;
   color: lightyellow;
-  flex-direction: column;
+  flex-direction: column-reverse;
   font-weight: 300;
 }
 .contactInfoBx .box .text h3 {
   font-weight: 500;
   color: rgb(165, 81, 47);
   margin-bottom: 0;
-}
-.original {
-  color: lightyellow;
-  text-shadow: 1px 1px 2px black;
-  text-align: center;
-  padding: 10px;
 }
