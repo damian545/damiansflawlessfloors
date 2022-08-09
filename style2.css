@@ -8,9 +8,11 @@
   width: 100%;
   align-items: center;
   margin-bottom: 30px;
-  color: #111;
+  color: rgb(51, 15, 75);
+  text-shadow: 2px 2px 3px wheat;
 }
 .heading h2 {
+  letter-spacing: 2px;
   font-weight: 600;
   font-size: 30px;
 }
@@ -29,7 +31,7 @@
   font-size: 24px;
   margin-bottom: 10px;
 }
-.w50 {
+.w50 {  
   min-width: 50%;
 }
 img {
