@@ -74,6 +74,7 @@ header .logo {
   color: rgb(0, 162, 255);
   text-shadow: 2px 2px 3px black;
   font-size: 44px;
+  font-style:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
