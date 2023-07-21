@@ -13,7 +13,7 @@ section {
 .banner {
   position: relative;
   min-height: 100vh;
-  background: url("./images/laminate-flooring-1.jpg");
+  background: url("./images/woodenbackground.jpg");
   background-size: cover;
   background-position: right;
   display: flex;
@@ -68,7 +68,7 @@ header {
 header.sticky {
   padding: 20px 100px;
   box-shadow: 0 5px 20px rgba(7, 54, 182, 0.1);
-  background-color: aqua;
+  background-color: black;
 }
 header .logo {
   color: rgb(0, 162, 255);
@@ -185,86 +185,17 @@ img {
   max-width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.testimonial .heading {
-  text-align: center;
-}
-.testimonial {
-  background: #f7f7f7;
-}
-.testimonial .content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.testimonial .content .testimonialBx {
-  max-width: calc(50% - 40px);
-  padding: 60px 40px;
-  margin: 20px;
-  background: #2196f3;
-}
-.testimonial .content .testimonialBx p {
-  color: #fff;
-  font-style: italic;
-  font-size: 16px;
-  font-weight: 300;
-}
-.testimonial .content .testimonialBx h3 {
-  margin-top: 40px;
-  text-align: end;
-  color: rgb(4, 4, 124);
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1em;
-}
-.testimonial .content .testimonialBx h3 span {
-  font-size: 14px;
-  font-weight: 400;
-}
+
 .hr {
   width: 100%;
+}
+.content{
+  background: cadetblue;
 }
 .contact {
   background: cadetblue;
 }
-.formBx {
-  min-width: 60%;
-}
-.formBx form {
-  display: flex;
-  flex-direction: column;
-}
-.formBx form h3,
-.contactInfo h3 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  margin: 10px;
-}
-.formBx form input,
-.formBx form textarea {
-  margin-bottom: 20px;
-  padding: 15px;
-  font-size: 16px;
-  background: #222;
-  border: none;
-  outline: none;
-  color: #fff;
-  resize: none;
-}
-.formBx form textarea {
-  min-height: 200px;
-}
-.formBx form input::placeholder,
-.formBx form textarea::placeholder {
-  color: aqua;
-}
-.formBx form input[type="submit"] {
-  max-width: 100px;
-  background-color: rgba(25, 13, 102, 0.4);
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
+
 .contact .heading {
   text-align: center;
 }
